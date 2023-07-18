@@ -33,7 +33,7 @@ const Register = () => {
 
   const register = async (e) => {
     e.preventDefault() 
-    console.log(formData)
+    // console.log(formData)
 
     if(!name || !email || !password){
       return toast.error('All fields are required')
